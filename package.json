@@ -1,0 +1,19 @@
+{
+  "name": "unity-cloud-build-to-hockeyapp",
+  "version": "1.0.0",
+  "description": "Receives a payload from Unity Cloud Build webhook. Downloads the binary and posts to the HockeyApp API. Automating deployment from Unity Cloud Build to Hockeyapp.",
+  "main": "index.js",
+  "dependencies": {
+    "dotenv": "^2.0.0",
+    "express": "^4.14.0",
+    "swagger-client": "^2.1.16",
+    "unitycloudbuild-client": "^0.1.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Nathan Broadbent",
+  "license": "ISC"
+}
